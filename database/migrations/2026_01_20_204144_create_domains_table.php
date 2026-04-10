@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('domains', function (Blueprint $table) {
             $table->id();
-              $table->string('name')->unique(); // This line must exist!
+            $table->string('name')->unique();
             $table->timestamps();
         });
     }

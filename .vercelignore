@@ -1,0 +1,12 @@
+/vendor
+/node_modules
+/doc
+/.git
+/tests
+phpunit.xml
+.env
+database.sql
+database_pgsql.sql
+vercel-guideline.md
+changelog.md
+README.md
